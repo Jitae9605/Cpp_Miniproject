@@ -1,5 +1,3 @@
-//만드는중 잘 모르겠음
-
 #include <iostream>
 using namespace std;
 
@@ -8,16 +6,16 @@ class MES
 private:
 	int recent_work;
 public:
-	MES
-		whereismysit()
+
+	void whereismysit()
 	{
 
 	}
-	checkError()
+	void checkError()
 	{
 
 	}
-	make_product_plan(BOM 받아옴)
+	void make_product_plan(BOM 받아옴)
 	{
 
 	}
@@ -28,7 +26,7 @@ class BOM
 private:
 	Product product;
 public:
-	makeBOM()
+	void makeBOM()
 	{
 
 	}
@@ -41,7 +39,7 @@ private:
 	string item_nubmer; //물품번호
 	string item_serial; //시리얼 번호
 public:
-	makeProduct()
+	void makeProduct()
 	{
 
 	}
@@ -55,26 +53,24 @@ private:
 	Product error_product;
 public:
 
-	make_product1()
+	void CheckError()
 	{
-		CheckError()
-		{
 
-		}
 	}
-	make_product2()
+	void make_product1()
 	{
-		CheckError()
-		{
+		void CheckError();
 
-		}
 	}
-	make_product3()
+	void make_product2()
 	{
-		CheckError()
-		{
+		void CheckError();
 
-		}
+	}
+	void make_product3()
+	{
+		void CheckError();
+
 	}
 }
 
@@ -82,7 +78,7 @@ class handler
 {
 private:
 	Product* CPU[100];
-	Product* M / B[100];
+	Product* MB[100];
 	Product* Memory[100];
 	Product* Graphic[100];
 	Product* Ssd[100];
@@ -90,7 +86,7 @@ private:
 	Product* Power[100];
 	BOM* Power[100];
 	MES Now_work[100];
-	error관련
+	error관련;
 };
 int main()
 {
